@@ -1,0 +1,5 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='startBtn' catchtap='startTimeTap'>开始倒计时</view>
+  <view class='timeText'>{{countDownDay}}:{{countDownHour}}:{{countDownMinute}}:{{countDownSecond}}</view>
+</view>
